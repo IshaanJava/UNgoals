@@ -1,0 +1,228 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+  
+  /*nav styles*/
+  .navbar{
+   /* background-color: #333;*/
+    width:87.5%;
+    overflow: hidden;
+    float: right;
+    position: fixed;
+    top: 0;  
+    transform: translate (-50%, 0%)
+}
+  .navbar a {
+    float: right;
+    background:rgba(255, 255, 255, 0.50);
+    color: #1a1a75;
+    text-shadow: .7px .7px #faf9e8;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 14px;
+    margin:30px;
+    text-decoration: none;
+    font-size: 25px;
+    border: 3px solid #faf9e8;
+    border-radius: 10px;
+}
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #faf9e8;
+    color: #1a1a75;
+}
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+  
+  
+  /*OTHER PAGES NAV*/
+  .topnav{
+  
+    overflow: hidden;
+    float: right;
+    width:87.5%;
+}
+  .topnav a {
+     background:rgba(255, 255, 255, 0.50);
+    color: #1a1a75;
+    text-shadow: .7px .7px #faf9e8;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 14px;
+    margin:30px;
+    text-decoration: none;
+    font-size: 25px;
+    border: 3px solid #faf9e8;
+    border-radius: 10px;
+}
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+     background-color:#1a1a75;
+    color: #faf9e8;
+}
+  
+  
+  
+  
+  /*homepage styles*/
+  
+   */
+  .viewport_header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    margin-top:130px;
+    font-size: 50px;
+    text-align: center;
+    position: fixed;
+    /*bottom: 0;*/
+    /*background: rgba(0, 0, 0, 0.5);*/
+    /*background:rgba(26, 26, 117, 0.66);*/
+    color: #faf9e8;
+    text-shadow: 2px 2px #1a1a75;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    padding: 20px;
+}
+  
+  /* Style the button used to pause/play the video 
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  */
+  h3 {
+    font-size : 40px; 
+    text-align : center; 
+}
+  h4 {
+    font-size : 30px; 
+    text-align : center; 
+}
+  p {
+    font-size: 30px; 
+  }
+  .title {
+    font-size : 50px;
+    text-align : center;
+    padding-top : 5%; 
+}
+  /* What is Fast Fashion sytles*/ 
+  .whatIsFastFashion{
+    background-color: #faf9e8;
+    color: #1a1a75;
+    width: 100%; 
+    height : 150%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+  .containerPg1Row1 {
+    padding-top: 5%;
+    display : flex;
+}
+  
+  .whatFashionImage{
+   padding-left : 20%; 
+   padding-right : 5%; 
+}
+  
+  .whatFashionText{
+    flex-basis: 75%;
+    padding-left : 5%; 
+}
+  .containerPg1Row2 {
+    display : flex;
+    padding-top: 5%;
+  
+}
+  .impactImage{
+   padding-left : 5%; 
+}
+  
+  .impactText{
+    flex-basis: 75%;
+    padding-left : 10%; 
+    padding-right : 5%
+}
+  
+  /* Solutions Styles */ 
+  .solutions {
+    background-color:  #fcf9e8; 
+    color:  #1a1a75;
+    font-family: 'Josefin Sans', sans-serif;
+}
+  .containerPg2Row1 {
+    display : flex;
+}
+  .solutionImage{
+   padding-left : 5%; 
+}
+  
+  .solutionText{
+    flex-basis: 75%;
+    padding-left : 10%; 
+    padding-right : 5%
+}
+  
+  .containerPg2Row2 {
+    display : flex;
+    padding : 5%; 
+}
+  .salvationArmy{
+    padding-right: 20%;
+}
+  .salvationArmyImage{
+    padding-left : 20%; 
+}
+  .hiddenTreasures{
+    padding-left : 10%;
+}
+.cltCollectiveImage{
+  padding-left : 35%; 
+}
+  .hiddenTreasuresImage{
+    padding-left : 10%; 
+}
+    
+  .containerPg2Row3 {
+    display : flex;
+    padding-right : 20%; 
+}
+  .greatThings {
+    padding-left : 10%; 
+}
+  .greatThingsImage {
+    padding-left : 10%;
+}
